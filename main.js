@@ -72,9 +72,9 @@ na_prvi();
       $('.cent').children().removeClass();
       $('#back').append('<div class="adresa"> </div>');
       $('.adresa').append('<h2> Pet Shop </br> Vesele šape Čačak</h2>');
-      $('.adresa').append('<h3><strong> sve za pse i mačke </strong> </h3>');
-      $('.adresa').append('<h3> Čačak - Kneza Miloša 30</h3>');
-      $('.adresa').append('<h3> 064 111 22 33</h3>');
+      $('.adresa').append('<h2><strong> sve za pse i mačke </strong> </h2>');
+      $('.adresa').append('<h2> Čačak - Kneza Miloša 30</h2>');
+      $('.adresa').append('<h2> 064 111 22 33</h2>');
 //$('.adresa').append('<img src='+slika_kon+' alt='+alt_slike_kon+' >');
 
       setTimeout(function () {
