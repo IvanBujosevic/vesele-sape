@@ -1,0 +1,188 @@
+*{
+  background: #D3B47E;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+
+.vrap{
+  width: 90%;
+  margin: auto;
+  }
+
+.ashe{
+  width: 12%;
+  float: left;
+    background: #D3B47E;
+    border: 1px solid #D3B47E;
+  }
+
+.prvi{
+  width: 76%;
+  font-size: 6vw;
+  color: #593800;
+  text-align: center;
+  transition: transform 1s linear;
+  float: left;
+
+  display: table-cell;
+vertical-align: middle;
+
+  font-family: 'Sigmar One', cursive;
+  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=57182"),auto;
+    }
+
+.prvi:hover{
+  font-size: 7vw;
+}
+
+.drugi{
+  width: 100%;
+  float: left;
+  font-size: 1.5vw;
+  text-align: center;
+  margin-top: -3vw;
+
+  transition: transform 1s linear;
+  color: #815609;
+  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=57182"),auto;
+  }
+
+  strong {
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+
+h1{
+  font-size: 1.5vw;
+}
+
+
+h1:hover{
+  font-size: 2vw;
+
+}
+
+h2 {
+  font-size: 1.5vw;
+}
+
+.aside{
+  width: 15%;
+  float: left;
+  border: 1px solid #D3B47E;
+}
+
+.cent{
+  width: 70%;
+  float: left;
+  transition: transform 1s linear;
+  border-top : 2px solid #815609;
+
+  }
+
+.napred{
+  width: 62%;
+}
+.nazad{
+  width: 62%;
+}
+
+#front{
+  position: absolute;
+  transition: transform 2s linear;
+  backface-visibility: hidden;
+  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=57182"),auto;
+  float: left;
+}
+
+
+
+#back{
+  position: absolute;
+  transition: transform 2s linear;
+  color: #593800;
+  backface-visibility: hidden;
+  float: left;
+}
+
+
+#slika_pas{
+    width: 25%;
+    float: left;
+
+}
+
+#tekst_pas{
+  width: 70%;
+  float: left;
+
+}
+
+#slika_mace{
+    width: 25%;
+    float: left;
+
+}
+
+#tekst_maca{
+  width: 70%;
+  float: left;
+
+}
+
+
+img{
+  width: 80%;
+display: block; margin-left: auto; margin-right: auto;
+padding-top: 1vw;
+}
+
+.adresa{
+  width: 40%;
+  float:left;
+      }
+
+.adresa img{
+  width: 50%;
+  float: right;
+}
+.mapa{
+  width: 60%;
+  float: left;
+  padding: 1vw;
+  }
+
+
+.pozadi{
+  transform:  perspective(900px) rotateX(180deg);
+}
+
+.napred{
+  transform: perspective(900px) rotateX(0deg);
+}
+
+.istakni_kucu{
+  transform: perspective(900px) rotateY(45deg);
+}
+.istakni_macu{
+  transform: perspective(900px) rotateY(-45deg);
+}
+
+
+
+.header{
+  width: 100%;
+box-sizing: border-box;
+float: left;
+
+}
+.futer{
+  width: 100%;
+  text-align: center;
+  font-size: 2vw;
+  float: left;
+  margin-top: .5%;
+  color: #593800;
+  font-style: italic;
+  font-weight: bold;
+}
